@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
 
         pdfView= findViewById(R.id.pdfView);
 
-//        my_image = (ImageView) findViewById(R.id.my_image);
+
         requestWritePermission();
 
         btnShowProgress.setOnClickListener(new View.OnClickListener(){
